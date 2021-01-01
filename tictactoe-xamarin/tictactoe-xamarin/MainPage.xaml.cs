@@ -41,6 +41,7 @@ namespace tictactoe_xamarin
                 
                 IsPlayer1 ^= true;
                 Turn++;
+
                 CheckAllFields();
             }
         }
@@ -203,5 +204,9 @@ namespace tictactoe_xamarin
             }
         }
 
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            StartNewGame();
+        }
     }
 }
