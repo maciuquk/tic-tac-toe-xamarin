@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tictactoe_xamarin.MainPage">
+
+    <StackLayout BackgroundColor="#2196F3">
+        <Frame BackgroundColor="#2196F3" CornerRadius="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" Text="Kółko i krzyżyk" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Margin="0" Padding="0"/>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Text="Teraz kolej:" HorizontalOptions="Center" TextColor="White" ></Label>
+                    <Label x:Name="terazKolejLabel" Grid.Row="1"  FontSize="32" HorizontalOptions="Center" TextColor="White" ></Label>
+                </Grid>
+
+            </Grid>
+        </Frame>
+        <Grid BackgroundColor="#2196F3" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button1" Grid.Column="0" Grid.Row="0"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button2" Grid.Column="1" Grid.Row="0"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button3" Grid.Column="2" Grid.Row="0"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button4" Grid.Column="3" Grid.Row="0"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button5" Grid.Column="4" Grid.Row="0"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button6" Grid.Column="0" Grid.Row="1"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button7" Grid.Column="1" Grid.Row="1"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button8" Grid.Column="2" Grid.Row="1"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button9" Grid.Column="3" Grid.Row="1"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button10" Grid.Column="4" Grid.Row="1"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button11" Grid.Column="0" Grid.Row="2"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button12" Grid.Column="1" Grid.Row="2"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button13" Grid.Column="2" Grid.Row="2"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button14" Grid.Column="3" Grid.Row="2"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button15" Grid.Column="4" Grid.Row="2"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button16" Grid.Column="0" Grid.Row="3"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button17" Grid.Column="1" Grid.Row="3"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button18" Grid.Column="2" Grid.Row="3"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button19" Grid.Column="3" Grid.Row="3"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button20" Grid.Column="4" Grid.Row="3"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button21" Grid.Column="0" Grid.Row="4"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button22" Grid.Column="1" Grid.Row="4"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button23" Grid.Column="2" Grid.Row="4"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button24" Grid.Column="3" Grid.Row="4"></Button>
+            <Button FontSize="46" TextColor="Black" Clicked="button1_Clicked" x:Name="button25" Grid.Column="4" Grid.Row="4"></Button>
+        </Grid>
+        <!--<Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>-->
+        <!--</Label>-->
+    </StackLayout>
+
+</ContentPage>
