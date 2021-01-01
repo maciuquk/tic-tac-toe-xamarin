@@ -30,13 +30,13 @@ namespace tictactoe_xamarin
                     
                     button.Text = "X";
                     button.TextColor = Color.Red;
-                    terazKolejLabel.Text = "O";
+                    whichTurnLabel.Text = "O";
                 }
                 else
                 {
                     button.Text = "O";
                     button.TextColor = Color.Blue;
-                    terazKolejLabel.Text = "X";
+                    whichTurnLabel.Text = "X";
                 }
                 
                 IsPlayer1 ^= true;

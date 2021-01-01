@@ -18,7 +18,7 @@
                         <RowDefinition Height="2*"></RowDefinition>
                     </Grid.RowDefinitions>
                     <Label Grid.Row="0" Text="Teraz kolej:" HorizontalOptions="Center" TextColor="White" ></Label>
-                    <Label x:Name="terazKolejLabel" Grid.Row="1"  FontSize="32" HorizontalOptions="Center" TextColor="White" ></Label>
+                    <Label x:Name="whichTurnLabel" Grid.Row="1"  FontSize="32" HorizontalOptions="Center" TextColor="White" ></Label>
                 </Grid>
 
             </Grid>
@@ -66,17 +66,6 @@
             <Button FontSize="46" BackgroundColor="White" TextColor="Black" Clicked="button1_Clicked" x:Name="button25" Grid.Column="4" Grid.Row="4"></Button>
         </Grid>
         <Button Text="Nowa Gra" BackgroundColor="#2196F3" TextColor="White" Clicked="Button_Clicked"></Button>
-        <!--<Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>-->
-        <!--</Label>-->
     </StackLayout>
 
 </ContentPage>
